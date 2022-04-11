@@ -36,3 +36,29 @@ ol li ol li {
     margin: 1rem 0px;
     margin-left: 2rem;
 }
+
+footer {
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+}
+
+.container-footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0px;
+}
+
+.foot-link {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.scritte {
+    color: gray;
+}
+
+#lingua {
+    width: 200px;
+}

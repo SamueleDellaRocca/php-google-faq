@@ -90,7 +90,21 @@ $arrayDomRisp = [
         } ?>
     </main>
 
-
+    <footer>
+        <div class="container-footer">
+            <div class="scritte">
+                <a href="#" class="foot-link">Google</a> - <a href="#" class="foot-link">Tutto su Google</a> - <a href="#" class="foot-link">Privacy</a> -<a href="#" class="foot-link">Termini</a>
+            </div>
+            <div class="select">
+                <select name="lingua" id="lingua">
+                    <option value="volvo" selected>Italiano</option>
+                    <option value="saab">Inglese</option>
+                    <option value="mercedes">Spagnolo</option>
+                    <option value="audi">Francese</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
