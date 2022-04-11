@@ -82,6 +82,33 @@ $arrayDomRisp = [
 
 <body>
 
+    <header>
+
+        <div class="superiore">
+            <div class="sinistra">
+                <div class="titolo">
+                    <span class="rosso">Google</span>
+                    <span class="privacy">Privacy e termini</span>
+                </div>
+            </div>
+
+            <div class="destra">
+                <div class="cerchio">S</div>
+            </div>
+        </div>
+
+        <div class="inferiore">
+            <ul>
+                <li class="list-item"><a href="#">Introduzione</a></li>
+                <li class="list-item"><a href="#">Norme sulla privacy</a></li>
+                <li class="list-item"><a href="#">Termini di servizio</a></li>
+                <li class="list-item"><a href="#">Tecnologie</a></li>
+                <li class="list-item"><a href="#">Domande frequenti</a></li>
+
+            </ul>
+        </div>
+    </header>
+
     <main>
         <?php
         foreach ($arrayDomRisp as $elemento) {

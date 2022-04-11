@@ -8,10 +8,72 @@ html {
     font-family: Roboto, sans-serif;
 }
 
+header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+}
+
+.superiore {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.titolo {
+    font-size: 1.4rem;
+}
+
+.rosso {
+    color: red;
+}
+
+.destra {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+}
+
+.cerchio {
+    margin: auto;
+}
+
+
+.inferiore ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    margin-right: 3rem;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 8px;
+}
+
+.list-item:hover {
+    border-bottom: 3px solid blue;
+}
+
+.list-item:hover a {
+    color: blue;
+}
+
+.list-item a {
+    color: gray;
+}
+
 main {
     width: 70%;
     margin: auto;
-    padding: 4rem 0px;
+    padding-bottom: 4rem;
+    padding-top: 8rem;
     line-height: 2rem;
 }
 
