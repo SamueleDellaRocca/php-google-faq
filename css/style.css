@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding: 4rem 0px;
+    line-height: 2rem;
+}
+
+h1 {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 2rem 0px;
+}
+
+ol li {
+    margin-left: 1rem;
+}
+
+ol li ol li {
+    margin: 1rem 0px;
+    margin-left: 2rem;
+}

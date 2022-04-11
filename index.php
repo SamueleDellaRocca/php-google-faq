@@ -77,14 +77,19 @@ $arrayDomRisp = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>php-google-faq</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <?php
-    foreach ($arrayDomRisp as $elemento) {
-        echo $elemento['domanda'];
-        echo $elemento['risposta'];
-    } ?>
+
+    <main>
+        <?php
+        foreach ($arrayDomRisp as $elemento) {
+            echo $elemento['domanda'];
+            echo $elemento['risposta'];
+        } ?>
+    </main>
+
 
 
 </body>
